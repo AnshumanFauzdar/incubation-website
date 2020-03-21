@@ -3,12 +3,12 @@
   font-size: 22px;
   color: white;
   background-color: #2C003E;
-  padding: 0 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
 }
 
 .footer {
   position: relative;
- padding-top: 50px;
+ padding-top: 18px;
   color: white;
   font-weight: bold;
 
@@ -23,27 +23,51 @@ text-align: center;
 
 
 }
-@media screen and (min-width: 501px) {
+
+/* HEADER */
+
+@media screen and (min-width: 601px) {
   div.head {
       margin-top: 10px;
-    font-size:22px;
+    font-size:  36px;
     margin-left: 120px;
-    font-weight: bold;
+    font-weight: 900;
 
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   div.head {
     margin-top: 10px;
-    font-size: 10px;
-    margin-left: 60px;
-    font-weight: bold;
+    font-size:   20px;
+    margin-left: 100px;
+    font-weight: 900;
   }
 }
 
+/* SUB HEADER */
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 601px) {
+  div.head2 {
+      margin-top: 10px;
+    font-size:  26px;
+    margin-left: 120px;
+    font-weight: bold;
+    font-weight: bold;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.head2 {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 100px;
+    font-weight: bold;
+    visibility: collapse;
+  }
+}
+@media screen and (min-width: 601px) {
   img.logo {
     box-shadow: 2px 2px;
      float: left;
@@ -54,32 +78,31 @@ text-align: center;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   img.logo {
     box-shadow: 2px 2px;
      float: left;
      width: 100%;
      margin-top: 10px;
-    max-width: 50px;
+    max-width: 80px;
     height: auto;
 
   }
 }
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 601px) {
   div.top {
     padding: 30px;
     height:180px;
 
-
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   div.top {
 
     padding: 5px;
-    height:80px;
+    height:120px;
   }
 }
 body {
@@ -98,7 +121,7 @@ body {
   right: 0;
   bottom: 0;
   text-align: center;
-  background-color: #be79df;
+  background-color: #7F78D2;
   /* change if the mask should have another color then white */
   z-index: 9999;
   /* makes sure it stays on top */
