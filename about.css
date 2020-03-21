@@ -81,6 +81,32 @@
 }
 /* ____________________________header ends_________________________________________ */
 
+/* ____________________________mzin section_________________________________________ */
+.main-section .row{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.main-section .row .col-md-6{
+    background: #f5f5f5;
+    margin-right: -2%;
+    padding: 5%;
+}
+.main-section h3{
+    color: #004085;
+}
+.main-section p{
+    margin-top: 10%;
+    color: #545b62;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.main-section img
+{
+    width: 100%;
+}
+
+/* ____________________________mzin section_________________________________________ */
 
 /* __________________________gallery section__________________________________ */
 
