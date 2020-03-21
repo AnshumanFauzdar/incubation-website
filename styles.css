@@ -26,7 +26,7 @@ text-align: center;
 
 /* HEADER */
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 601px) {
   div.head {
       margin-top: 10px;
     font-size:  36px;
@@ -36,7 +36,7 @@ text-align: center;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   div.head {
     margin-top: 10px;
     font-size:   20px;
@@ -47,7 +47,7 @@ text-align: center;
 
 /* SUB HEADER */
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 601px) {
   div.head2 {
       margin-top: 10px;
     font-size:  26px;
@@ -58,7 +58,7 @@ text-align: center;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   div.head2 {
     margin-top: 10px;
     font-size: 20px;
@@ -67,7 +67,7 @@ text-align: center;
     visibility: collapse;
   }
 }
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 601px) {
   img.logo {
     box-shadow: 2px 2px;
      float: left;
@@ -78,7 +78,7 @@ text-align: center;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   img.logo {
     box-shadow: 2px 2px;
      float: left;
@@ -90,7 +90,7 @@ text-align: center;
   }
 }
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 601px) {
   div.top {
     padding: 30px;
     height:180px;
@@ -98,7 +98,7 @@ text-align: center;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   div.top {
 
     padding: 5px;
