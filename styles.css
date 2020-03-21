@@ -1,1 +1,118 @@
 /* Nothing yet */
+.para {
+  font-size: 22px;
+  color: white;
+  background-color: #2C003E;
+  padding: 0 20px 20px 20px;
+}
+
+.footer {
+  position: relative;
+ padding-top: 50px;
+  color: white;
+  font-weight: bold;
+
+
+  height: 100px;
+  background-color: SlateBlue;
+}
+#header-content {
+text-align: center;
+
+  font-size: 22px;
+
+
+}
+@media screen and (min-width: 501px) {
+  div.head {
+      margin-top: 10px;
+    font-size:22px;
+    margin-left: 120px;
+    font-weight: bold;
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.head {
+    margin-top: 10px;
+    font-size: 10px;
+    margin-left: 60px;
+    font-weight: bold;
+  }
+}
+
+
+@media screen and (min-width: 501px) {
+  img.logo {
+    box-shadow: 2px 2px;
+     float: left;
+     width: 100%;
+   max-width: 100px;
+   height: auto;
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+  img.logo {
+    box-shadow: 2px 2px;
+     float: left;
+     width: 100%;
+     margin-top: 10px;
+    max-width: 50px;
+    height: auto;
+
+  }
+}
+
+@media screen and (min-width: 501px) {
+  div.top {
+    padding: 30px;
+    height:180px;
+
+
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.top {
+
+    padding: 5px;
+    height:80px;
+  }
+}
+body {
+  overflow: hidden;
+}
+
+
+/* Preloader */
+
+#preloader {
+  position: fixed;
+  padding-top: 300px;
+  top: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: #be79df;
+  /* change if the mask should have another color then white */
+  z-index: 9999;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+
+  margin: -250px 0 0 -250px;
+  /* is width and height divided by two */
+}
