@@ -54,3 +54,111 @@ h2 {
 .display-6 {
     font-family: 'Source Sans Pro',sans-serif;
     font-size: 1re}
+
+    /* Nothing yet */
+    .para {
+      font-size: 22px;
+      color: white;
+      background-color: #2C003E;
+      padding: 20px 20px 20px 20px;
+    }
+
+    .footer {
+      position: relative;
+     padding-top: 18px;
+      color: white;
+      font-weight: bold;
+
+
+      height: 100px;
+      background-color: SlateBlue;
+    }
+    #header-content {
+    text-align: center;
+
+      font-size: 22px;
+
+
+    }
+
+    /* HEADER */
+
+    @media screen and (min-width: 601px) {
+      div.head {
+          margin-top: 10px;
+        font-size:  36px;
+        margin-left: 120px;
+        font-weight: 900;
+
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      div.head {
+        margin-top: 10px;
+        font-size:   20px;
+        margin-left: 100px;
+        font-weight: 900;
+      }
+    }
+
+    /* SUB HEADER */
+
+    @media screen and (min-width: 601px) {
+      div.head2 {
+          margin-top: 10px;
+        font-size:  26px;
+        margin-left: 120px;
+        font-weight: bold;
+        font-weight: bold;
+
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      div.head2 {
+        margin-top: 10px;
+        font-size: 20px;
+        margin-left: 100px;
+        font-weight: bold;
+        visibility: collapse;
+      }
+    }
+    @media screen and (min-width: 601px) {
+      img.logo {
+        box-shadow: 2px 2px;
+         float: left;
+         width: 100%;
+       max-width: 100px;
+       height: auto;
+
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      img.logo {
+        box-shadow: 2px 2px;
+         float: left;
+         width: 100%;
+         margin-top: 10px;
+        max-width: 80px;
+        height: auto;
+
+      }
+    }
+
+    @media screen and (min-width: 601px) {
+      div.top {
+        padding: 30px;
+        height:180px;
+
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      div.top {
+
+        padding: 5px;
+        height:120px;
+      }
+    }
