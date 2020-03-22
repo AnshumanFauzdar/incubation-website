@@ -1,21 +1,20 @@
-/* Nothing yet */
+html {
+  scroll-behavior: smooth;
+}
 .para {
   font-size: 22px;
-  color: white;
-  background-color: #2C003E;
+  background-color: #e1ccec;
   padding: 20px 20px 20px 20px;
 }
 
-.footer {
-  position: relative;
- padding-top: 18px;
-  color: white;
-  font-weight: bold;
-
-
-  height: 100px;
-  background-color: SlateBlue;
+.nav-color{
+ font-weight: bold;
+ color: black;
 }
+.events-button{
+   padding: 10px;
+}
+
 #header-content {
 text-align: center;
 
@@ -67,33 +66,23 @@ text-align: center;
     visibility: collapse;
   }
 }
-@media screen and (min-width: 601px) {
-  img.logo {
-    box-shadow: 2px 2px;
-     float: left;
-     width: 100%;
-   max-width: 100px;
-   height: auto;
 
+
+  img.logo {
+
+    box-shadow: 2px 2px;
+    border-radius: 10px;
   }
 }
+/* Upper LOGO */
 
-@media screen and (max-width: 600px) {
-  img.logo {
-    box-shadow: 2px 2px;
-     float: left;
-     width: 100%;
-     margin-top: 10px;
-    max-width: 80px;
-    height: auto;
-
-  }
-}
+/* Upper DIV */
 
 @media screen and (min-width: 601px) {
   div.top {
-    padding: 30px;
-    height:180px;
+
+    padding: 10px;
+    height:140px;
 
   }
 }
@@ -105,7 +94,8 @@ text-align: center;
     height:120px;
   }
 }
-body {
+
+  body {
   overflow: hidden;
 }
 
@@ -114,14 +104,14 @@ body {
 
 #preloader {
   position: fixed;
-  padding-top: 300px;
+  padding-top: 150px;
   top: 0;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
   text-align: center;
-  background-color: #7F78D2;
+
   /* change if the mask should have another color then white */
   z-index: 9999;
   /* makes sure it stays on top */
@@ -138,4 +128,19 @@ body {
 
   margin: -250px 0 0 -250px;
   /* is width and height divided by two */
+}
+
+ .spacing
+{
+  margin-left: 15px;
+} 
+.navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+
+
+.navbar-nav > li{
+  margin-left:10px;
+  margin-right:10px;
 }
