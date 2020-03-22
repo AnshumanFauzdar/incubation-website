@@ -15,85 +15,16 @@ html {
    padding: 10px;
 }
 
-#header-content {
-text-align: center;
 
-  font-size: 22px;
-
-
-}
-
-/* HEADER */
-
-@media screen and (min-width: 601px) {
-  div.head {
-      margin-top: 10px;
-    font-size:  36px;
-    margin-left: 120px;
-    font-weight: 900;
-
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.head {
-    margin-top: 10px;
-    font-size:   20px;
-    margin-left: 100px;
-    font-weight: 900;
-  }
-}
-
-/* SUB HEADER */
-
-@media screen and (min-width: 601px) {
-  div.head2 {
-      margin-top: 10px;
-    font-size:  26px;
-    margin-left: 120px;
-    font-weight: bold;
-    font-weight: bold;
-
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.head2 {
-    margin-top: 10px;
-    font-size: 20px;
-    margin-left: 100px;
-    font-weight: bold;
-    visibility: collapse;
-  }
-}
-
-
-  img.logo {
+img.logo {
 
     box-shadow: 2px 2px;
     border-radius: 10px;
   }
-}
+
 /* Upper LOGO */
 
-/* Upper DIV */
 
-@media screen and (min-width: 601px) {
-  div.top {
-
-    padding: 10px;
-    height:140px;
-
-  }
-}
-
-@media screen and (max-width: 600px) {
-  div.top {
-
-    padding: 5px;
-    height:120px;
-  }
-}
 
   body {
   overflow: hidden;
@@ -128,19 +59,4 @@ text-align: center;
 
   margin: -250px 0 0 -250px;
   /* is width and height divided by two */
-}
-
- .spacing
-{
-  margin-left: 15px;
-} 
-.navbar-nav > li{
-  padding-left:30px;
-  padding-right:30px;
-}
-
-
-.navbar-nav > li{
-  margin-left:10px;
-  margin-right:10px;
 }
