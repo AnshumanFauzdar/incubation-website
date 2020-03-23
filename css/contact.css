@@ -2,6 +2,10 @@ body {
   background: -webkit-linear-gradient(left, #0072ff, #a278b5);
 }
 
+.events-button {
+  padding: 10px;
+}
+
 /* _____________contact form______________ */
 .contact-form {
   background: #fff;
