@@ -1,0 +1,162 @@
+.events-button{
+   padding: 10px;
+}
+
+/* ____________________________main section_________________________________________ */
+.main-section .row{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.main-section .row .col-md-6{
+    background: #f5f5f5;
+    margin-right: -2%;
+    padding: 5%;
+}
+.main-section h3{
+    color: #004085;
+}
+.main-section p{
+    margin-top: 10%;
+    color: #545b62;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+.main-section img
+{
+    width: 100%;
+}
+
+/* ______________________Objective section___________________________ */
+
+
+nav > .nav.nav-tabs{
+
+  border: none;
+    color:#fff;
+    background:#481380;
+    border-radius:0;
+
+
+}
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#323edd;
+    border-radius:0;
+}
+
+nav > div a.nav-item.nav-link.active:after
+ {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #4d089a;
+}
+.tab-content{
+  background: #fdfdfd;
+    line-height: 25px;
+    border: 1px solid #ddd;
+    border-top:5px solid #4d089a;
+    border-bottom:5px solid #4d089a;
+    padding:30px 25px;
+}
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: #4d089a;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+
+/* __________________________features section__________________________________ */
+.features-section {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: #f1f4fa;
+}
+.wrap {
+    display: flex;
+    background: white;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+}
+
+.wrap:hover {
+    background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);
+    color: white;
+}
+
+.ico-wrap {
+    margin: auto;
+}
+
+.mbr-iconfont {
+    font-size: 4.5rem !important;
+    color: #313131;
+    margin: 1rem;
+    padding-right: 1rem;
+}
+.vcenter {
+    margin: auto;
+}
+
+.mbr-section-title3 {
+    text-align: left;
+}
+h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.display-5 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1.4rem;
+}
+.mbr-bold {
+    font-weight: 700;
+}
+
+ .features-para {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 25px;
+}
+.display-6 {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 1re}
+
+html {
+  scroll-behavior: smooth;
+}
+.para {
+  font-size: 22px;
+  background-color: #e1ccec;
+  padding: 20px 20px 20px 20px;
+}
+
+.nav-color{
+ font-weight: bold;
+ color: black;
+}
+.events-button{
+   padding: 10px;
+}
+
+
+img.logo {
+
+    box-shadow: 2px 2px;
+    border-radius: 10px;
+  }
+
+/* Upper LOGO */

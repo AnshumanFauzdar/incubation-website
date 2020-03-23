@@ -1,0 +1,62 @@
+html {
+  scroll-behavior: smooth;
+}
+.para {
+  font-size: 22px;
+  background-color: #e1ccec;
+  padding: 20px 20px 20px 20px;
+}
+
+.nav-color{
+ font-weight: bold;
+ color: black;
+}
+.events-button{
+   padding: 10px;
+}
+
+
+img.logo {
+
+    box-shadow: 2px 2px;
+    border-radius: 10px;
+  }
+
+/* Upper LOGO */
+
+
+
+  body {
+  overflow: hidden;
+}
+
+
+/* Preloader */
+
+#preloader {
+  position: fixed;
+  padding-top: 150px;
+  top: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+
+  /* change if the mask should have another color then white */
+  z-index: 9999;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+
+  margin: -250px 0 0 -250px;
+  /* is width and height divided by two */
+}
