@@ -157,19 +157,19 @@
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
-            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+            <input class="form-control" id="name" name="name" placeholder="Your name *" required type="text" value="">
           </div>
           <div class="form-group">
-            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+            <input class="form-control" id="email" name="email" placeholder="Your Email *" required type="email" value="">
           </div>
           <div class="form-group">
-            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+            <input class="form-control" id="phone" name="phone" placeholder="Your Phone Number *" required type="number" value="">
           </div>
 
         </div>
         <div class="col-md-6">
           <div class="form-group">
-            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+            <textarea class="form-control" id="message" name="message" placeholder="Your Message *" required style="width: 100%; height: 150px;"></textarea>
           </div>
           <div class="form-group">
               <div data-netlify-recaptcha="true"></div>
