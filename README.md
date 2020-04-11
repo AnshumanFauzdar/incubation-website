@@ -1,6 +1,7 @@
 # incubation-website
 
 ## TODO
+Note: Do not merge with the master branch.
 
 Write complete steps to configure and deploy.
 
