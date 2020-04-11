@@ -1,0 +1,35 @@
+<!-- generate header and footer from layout.html -->
+{% extends 'layout.html' %}
+
+<!-- Custom addition in head block of html page -->
+  {% block head %}
+  <!-- Custom linked CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  {% endblock head %}
+
+
+  {% block content%}
+
+    <div class="container" style="padding:50px">
+  <div class="card border-dark">
+<h5 class="card-header h3 purple-gradient border-dark" style="color:white;">DITE INNOVATION AND INCUBATION FOUNDATION</h5>
+<div class="card-body">
+  <h5 class="card-title border-dark">Applications are invited from eligible candidates for the post of Chief Executive Officer (1 post) and Multi Tasking Staff (1 post) in prescribed format for managing the Incubation Centre.
+<br> <br>
+The last date for receiving the duly filled form along with necessary documents is 23.03.2020, till 05.00 p.m.
+</h5>
+<br>
+  <p class="card-title border-dark"><b>CONTACT US</b> <br><br>
+Delhi Institute of Tool Engineering <br>
+Maa Anandmayi Marg ( Near DJB Water Tank), <br>
+Okhla Industrial Area, Phase-II, <br>
+New Delhi-110020 <br>
+Phone Nos. 26388920, 29207304, 29207309, <br>
+Telefax:- 27377440 <br>
+</p>
+  <a href="http://dite.delhigovt.nic.in/" class="btn btn-primary">Details are at - <b>dite.delhigovt.nic.in</b> </a>
+</div>
+</div>
+
+</div>
+{% endblock  %}

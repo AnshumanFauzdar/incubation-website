@@ -1,0 +1,43 @@
+<!-- generate header and footer from layout.html -->
+{% extends 'layout.html' %}
+
+<!-- Custom addition in head block of html page -->
+  {% block head %}
+  <!-- Custom linked CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  {% endblock head %}
+
+
+  {% block content%}
+    <!-- Buttons for events Ends -->
+
+      <div  >
+      <!-- Card -->
+      <div class="card mx-auto" style="width: 22rem;margin:50px;" >
+
+        <!-- Card image -->
+        <div class="view overlay">
+          <img class="card-img-top" src="{{ url_for('static', filename='img008.jpg') }}" alt="Card image cap">
+          <a href="#!"></a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+
+        <!-- Card content -->
+        <div class="card-body">
+
+          <!-- Title -->
+          <h4 class="card-title">Apply Now!</h4>
+          <!-- Text -->
+          <p class="card-text">CALL FOR BUSINESS PROPOSAL FOR STARTUP</p>
+          <!-- Button -->
+          <a href="{{ url_for('static', filename='apply-now.docx') }}" class="btn blue-gradient">Application Form</a>
+
+        </div>
+
+      </div>
+      <!-- Card -->
+
+    </div>
+
+  {% endblock  %}

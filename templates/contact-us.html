@@ -1,0 +1,138 @@
+<!-- generate header and footer from layout.html -->
+{% extends 'layout.html' %}
+
+<!-- Custom addition in head block of html page -->
+{% block head %}
+<!-- Custom linked CSS -->
+<link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+{% endblock head %}
+
+{% if message %}
+<p class="message">{{ message | safe }}</p>
+{% endif %}
+
+
+{% block content%}
+  <!-- _____________contact form_______________________ -->
+  <div class="container contact-form">
+    <div class="contact-image">
+      <img src="{{ url_for('static', filename='rocket_contact.png') }}" alt="rocket_contact" />
+    </div>
+    <form method="POST" action="">
+
+      {{ form.hidden_tag() }} <!-- #TODO - exp Comment -->
+
+      <h3>Drop Us a Message</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+          <!-- Check for form validation, print errors if any -->
+          {% if form.name.errors %}
+            {{ form.name(class="form-control is-invalid") }}
+            <div class="invalid-feedback">
+              {% for error in form.name.errors %}
+                <span>{{ error }}</span>
+              {% endfor %}
+            </div>
+          {% else %}
+            {{ form.name(class="form-control") }}
+          {% endif %}
+          </div>
+          
+          <div class="form-group">
+          <!-- Check for form validation, print errors if any -->
+          {% if form.email.errors %}
+            {{ form.email(class="form-control is-invalid") }}
+            <div class="invalid-feedback">
+              {% for error in form.email.errors %}
+                <span>{{ error }}</span>
+              {% endfor %}
+            </div>
+          {% else %}
+            {{ form.email(class="form-control") }}
+          {% endif %}
+          </div>
+          <div class="form-group">
+          <!-- Check for form validation, print errors if any -->
+          {% if form.phone.errors %}
+            {{ form.phone(class="form-control is-invalid") }}
+            <div class="invalid-feedback">
+              {% for error in form.phone.errors %}
+                <span>{{ error }}</span>
+              {% endfor %}
+            </div>
+          {% else %}
+            {{ form.phone(class="form-control") }}
+          {% endif %}
+          </div>
+
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+          <!-- Check for form validation, print errors if any -->
+          {% if form.message.errors %}
+            {{ form.message(class="form-control is-invalid") }}
+            <div class="invalid-feedback">
+              {% for error in form.message.errors %}
+                <span>{{ error }}</span>
+              {% endfor %}
+            </div>
+          {% else %}
+            {{ form.message(class="form-control") }}
+          {% endif %}
+          <!--<textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>-->
+          </div>
+          <div class="form-group">
+            {{ form.submit(class="btnContact") }}
+            <!--<input type="submit" name="btnSubmit" class="btnContact" value="Submit" >-->
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+  <!-- _________________contact cards__________________ -->
+  <section id="contact">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4  my-5">
+          <div class="card  h-100 border-0">
+            <a href="tel: 26388920">
+            <div class="card-body text-center">
+              <i class="fa fa-phone-alt fa-5x mb-3" aria-hidden="true"></i>
+              <h4 class="text-uppercase mb-5">Call Us</h4>
+              <p>26388920 <br></p>
+            </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 my-5">
+          <div class="card  h-100 border-0">
+            <a href="https://goo.gl/maps/VSmGjGuegrzjpcv99" target="_blank">
+            <div class="card-body text-center">
+              <i class="fa fa-map-marker fa-5x mb-3" aria-hidden="true"></i>
+              <h4 class="text-uppercase mb-5">Office loaction</h4>
+              <p>Block A, Okhla Phase II, Okhla Industrial Area, New Delhi, Delhi 110020 </p>
+            </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 my-5">
+          <div class="card  h-100 border-0">
+            <a href="mailto:diif.dite@gmail.com?subject=DITE%20IIF%20inquiry">
+            <div class="card-body text-center">
+              <i class="fa fa-globe fa-5x mb-3" aria-hidden="true"></i>
+              <h4 class="text-uppercase mb-5">E-mail</h4>
+              <p>diif.dite@gmail.com <br></p>
+            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% endblock  %}

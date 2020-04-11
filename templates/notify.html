@@ -1,0 +1,18 @@
+<!-- generate header and footer from layout.html -->
+{% extends 'layout.html' %}
+
+<!-- Custom addition in head block of html page -->
+{% block head %}
+<!-- Custom linked CSS -->
+<link rel="stylesheet" href="{{ url_for('static', filename='stylesheet.css') }}">
+{% endblock head %}
+
+{% block content%}
+
+{% if message %}
+<p class="message">
+    {{ message | safe }}
+</p>
+{% endif %}
+
+{% endblock  %}

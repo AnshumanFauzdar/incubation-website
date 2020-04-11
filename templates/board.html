@@ -1,0 +1,102 @@
+<!-- generate header and footer from layout.html -->
+{% extends 'layout.html' %}
+
+<!-- Custom addition in head block of html page -->
+  {% block head %}
+  <!-- Custom linked CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+  {% endblock head %}
+
+
+  {% block content%}
+
+    <div class="container" style="padding:30px">
+
+
+        <div style="margin-bottom: 50px">
+          <h1 class="text-center" style="font-weight: bold; ">Board Members</h1>
+            <center> <hr class="text-center deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 120px;margin-bottom: 50px"></center>
+        </div>
+
+<!-- Card deck -->
+<div class="card-deck">
+
+  <!-- Card -->
+  <div class="card mb-6">
+<div class="card-header  purple-gradient"><h3 class="text-center" style="font-weight: bold; height: 20px">Prof S. Maji</h3></div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img class="card-img-top" src="{{ url_for('static', filename='img006.jpg') }}"
+        alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">Chair person – DITE IIF</h4>
+<p class="card-text"> Director cum Principal - DITE </p>
+    </div>
+
+  </div>
+  <!-- Card -->
+
+  <!-- Card -->
+  <div class="card mb-6">
+<div class="card-header  purple-gradient"><h3 class="text-center" style="font-weight: bold; height: 20px">Dr Kanwarjeet Singh</h3></div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img class="card-img-top" src="{{ url_for('static', filename='img007.jpg') }}"
+        alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">Director - DITE IIF</h4>
+      <!--Text-->
+      <p class="card-text">HOD(Tool Engineering) - DITE</p>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+
+  <!-- Card -->
+  <div class="card mb-6">
+<div class="card-header  purple-gradient"><h3 class="text-center" style="font-weight: bold; height: 20px">Dr. Charu Gaur</h3></div>
+    <!--Card image-->
+    <div class="view overlay">
+      <img class="card-img-top" src="https://www.w3schools.com/howto/img_avatar2.png"
+        alt="Card image cap">
+      <a href="#!">
+        <div class="mask rgba-white-slight"></div>
+      </a>
+    </div>
+
+    <!--Card content-->
+    <div class="card-body">
+
+      <!--Title-->
+      <h4 class="card-title">Director - DITE IIF</h4>
+      <!--Text-->
+      <p class="card-text">HOD(Tool Engineering) - DITE</p>
+
+    </div>
+
+  </div>
+  <!-- Card -->
+
+</div>
+<!-- Card deck -->
+
+</div>
+
+{% endblock  %}
