@@ -1,3 +1,4 @@
+<!-- generate header and footer from layout.html -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -7,60 +8,55 @@
   <title>DITE | IIF</title>
 
   <!-- Device Specific Setting -->
-
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- bootstrap CSS CDN -->
+  <!-- favicon -->
+  <link rel='shortcut icon' type='image/x-icon' href="img/favicon.ico" />
 
+  <!-- bootstrap CSS CDN -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <!-- Custom linked CSS -->
+  
+<!-- Custom linked CSS -->
+<link rel="stylesheet" href="css/stylesheet.css">
 
-  <link rel="stylesheet" href="css/stylesheet.css">
 
   <!-- Ajax CDN animate CSS -->
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
   <!-- fontawesome icons CDN js -->
-
   <script src="https://kit.fontawesome.com/781513743a.js" crossorigin="anonymous"></script>
 
   <!-- Jquery CDN -->
-
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
   <!-- Minimal popper js CDN -->
-
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
   <!-- Bootstrap js CDN -->
-
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
   <!-- Ajax js CDN -->
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
   <!-- Lottie Player js CDN -->
-
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
   <!-- Custom linked js -->
-
   <script src="js/script.js" charset="utf-8"></script>
 
   <!-- MDBootstrap CDN start-->
-
+  
   <!-- Google Fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">-->
+  
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet">
 
   <!-- JQuery -->
 
   <!-- MDB core JavaScript -->
-
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>
 
   <!-- MDBootstrap CDN Ends-->
@@ -68,88 +64,71 @@
 </head>
 
 <body>
-<!-- top header  -->
-<div class="container-fluid text-center" style="background-color:black; color:white; ">
-  <div style="font-size:26px; font-weight:bold;">DITE INCUBATION AND INNOVATION FOUNDATION</div>
-  </div>
+    <!-- top header  -->
+    <div class="container-fluid text-center" style="background-color:black; color:white; ">
+    <div style="font-size:26px; font-weight:bold;">DITE INCUBATION AND INNOVATION FOUNDATION</div>
+    </div>
 
-
-  <!-- Top Navbar starts -->
+    <!-- Top Navbar starts -->
 
   <nav class="navbar sticky-top navbar-expand-lg navbar-dark purple-gradient">
-    <a class="navbar-brand"><img src="img/img001.jpeg" width="100" height="100" class="logo" alt=""></a>
+    <a href="/home.html" class="navbar-brand"><img src="img/img001.png" width="100" height="100" alt=""></a>
+
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link">
-          <h1 class="nav-color">DITE IIF</h1><span class="sr-only">(current)</span>
-        </a>
+        <a href="/home.html" class="nav-link"><h1 class="nav-color">DITE IIF</h1><span class="sr-only">(current)</span></a>
       </li>
     </ul>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
       <ul class="navbar-nav ml-auto" style="font-weight: bold;font-size: 20px;">
         <li class="nav-item gap" >
-          <a class="nav-link " href="index.html">Home</a>
+          <a class="nav-link " href="/home.html">Home</a>
         </li>
+
+        <li class="nav-item gap">
+          <a class="nav-link " href="/board.html">Board</a>
+        </li>
+        
+        <li class="nav-item gap">
+          <a class="nav-link " href="/mentors.html">Mentors</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/advisors.html">Advisors</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/events.html">Events</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/incubates.html">Incubates</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/apply.html">Apply Now</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/contact-us.html">Contact Us</a>
+        </li>
+        
         <li class="nav-item gap" >
-          <a class="nav-link ">About Us</a>
-        </li>
-        <li class="nav-item gap">
-          <a class="nav-link " href="board.html">Board</a>
-        </li>
-        <li class="nav-item gap">
-          <a class="nav-link " href="mentors.html">Mentors</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="advisors.html">Advisors</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="events.html">Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="incubates.html">Incubates</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="career.html">Career</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="apply.html">Apply Now</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact-us.html">Contact Us</a>
+          <a class="nav-link " href="/about.html">About Us</a>
         </li>
       </ul>
-
     </div>
   </nav>
-
   <!-- Top Navbar Ends -->
 
-  <!-- Buttons for events Start -->
-
-  <div class="container-fluid" style="padding:20px; background-color:#481380;">
-    <div class="container events-button">
-      <div class="row">
-        <div class="col-sm events-button">
-          <button type="button" class="btn btn-lg btn-outline-light btn-block" style=" font-size: 22px;border-radius:30px;">Hackathons</button>
-        </div>
-        <div class="col-sm events-button">
-          <button type="button" class="btn btn-lg btn-outline-light btn-block" style="font-size: 22px;border-radius:30px;">C/C++ BootCamps</button>
-        </div>
-        <div class="col-sm events-button">
-          <button type="button" class="btn btn-lg btn-outline-light btn-block" style="font-size: 22px;border-radius:30px;">Hardware innovation</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Buttons for events Ends -->
-
-
-
+    
   <!-- __________________________________main section ____________________________________ -->
   <div class="container main-section">
     <div class="row">
@@ -164,7 +143,7 @@
         </p>
       </div>
       <div class="col-md-6">
-        <img src="img/img001.jpeg" width="400" height="400" alt="" />
+        <img src="img/img001.png" width="400" height="400" alt="" />
       </div>
     </div>
 
@@ -245,22 +224,22 @@
           </div>
         </nav>
         <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" align="center">
             Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua
             ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing
             reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
           </div>
-          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" align="center">
             Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua
             ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing
             reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
           </div>
-          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+          <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" align="center">
             Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua
             ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing
             reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
           </div>
-          <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+          <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab" align="center">
             Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor anim. Velit non irure adipisicing aliqua
             ullamco irure incididunt irure non esse consectetur nostrud minim non minim occaecat. Amet duis do nisi duis veniam non est eiusmod tempor incididunt tempor dolor ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing
             reprehenderit do dolore. Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
@@ -345,9 +324,10 @@
   <!-- ___________________________PROFILEES SECTION____________________________ -->
 
 
-  <!-- Footer Starts-->
+ 
 
-  <div>
+    <!-- Footer Starts-->
+    <div>
     <footer class="page-footer font-small unique-color-dark">
 
       <div style="background-color: #6351ce;">
@@ -361,8 +341,6 @@
               <h4 class="mb-0">Get connected with us on social networks!</h4>
             </div>
             <!-- Grid column -->
-
-            <!-- Grid column -->
             <div class="col-md-6 col-lg-7 text-center text-md-right">
 
               <!-- Facebook -->
@@ -373,96 +351,64 @@
               <a class="tw-ic">
                 <i class="fab fa-twitter white-text mr-4"> </i>
               </a>
-              <!-- Google +-->
-              <a class="gplus-ic">
-                <i class="fab fa-google-plus-g white-text mr-4"> </i>
-              </a>
               <!--Linkedin -->
               <a class="li-ic">
                 <i class="fab fa-linkedin-in white-text mr-4"> </i>
               </a>
-              <!--Instagram-->
-              <a class="ins-ic">
-                <i class="fab fa-instagram white-text"> </i>
-              </a>
 
             </div>
             <!-- Grid column -->
-
           </div>
           <!-- Grid row-->
-
         </div>
       </div>
 
       <!-- Footer Links -->
       <div class="container text-center text-md-left mt-5">
-
         <!-- Grid row -->
         <div class="row mt-3">
-
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
             <!-- Content -->
             <h2 class="text-uppercase font-weight-bold">DITE IIF</h2>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>Delhi Institute of Tool Engineering (Govt. of NCT of Delhi), Okhla Industrial Area, Phase -II, New Delhi – 110020 (INDIA)
             </p>
             <p> <a href="http://dite.delhigovt.nic.in">dite.delhigovt.nic.in</a> </p>
-
           </div>
           <!-- Grid column -->
 
           <!-- Grid column -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
             <!-- Links -->
             <h2 class="text-uppercase font-weight-bold">Important Links</h2>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
             <p>
-              <a href="about.html">About us</a>
+              <a href="/career.html">Career</a>
             </p>
             <p>
-              <a href="board.html">Board</a>
+              <a href="/board.html">Board</a>
             </p>
             <p>
-              <a href="mentors.html">Mentors</a>
+              <a href="/mentors.html">Mentors</a>
             </p>
             <p>
-              <a href="advisors.html">Advisors</a>
+              <a href="/advisors.html">Advisors</a>
             </p>
-
+            <p>
+              <a href="/about.html">About Us</a>
+            </p>
+            <p>
+              <a href="/contact-us.html">Contact Us</a>
+            </p>
           </div>
           <!-- Grid column -->
-
-          <!-- Unused Column -->
-
-          <!-- <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-
-        <h6 class="text-uppercase font-weight-bold">Contact</h6>
-        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-        <p>
-          <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-        <p>
-          <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-        <p>
-          <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-        <p>
-          <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-
-      </div> -->
-
-          <!-- Grid column -->
+          
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
             <!-- Links -->
             <h2 class="text-uppercase font-weight-bold">Location</h2>
             <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-
             <!-- google map -->
-
             <p>
               <center>
                 <div class="mapouter">
@@ -473,7 +419,6 @@
                       height: 150px;
                       width: 250px;
                     }
-
                     .gmap_canvas {
                       overflow: hidden;
                       background: none !important;
@@ -487,7 +432,6 @@
           </div>
         </div>
         <!-- Grid row -->
-
       </div>
       <!-- Footer Links -->
 
@@ -495,30 +439,12 @@
       <div class="footer-copyright text-center py-3">© 2020 DITE IIF | Team Mechatronics
       </div>
       <!-- Copyright -->
-
     </footer>
-
-  </div>
-  <!-- Footer Ends-->
-
-
-  <!-- java script -->
-  <script src="https://kit.fontawesome.com/781513743a.js" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  <!-- Ajax js CDN -->
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <!-- Lottie Player js CDN -->
-
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  <!-- MDB core JavaScript -->
-
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"></script>
+    </div>
+    <!-- Footer Ends-->
 
 
-
+        
+    
 </body>
-
 </html>
